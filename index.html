@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="Vector.svg" alt="logo de alura">
+            </span>
+            <div class="text header-text">
+                <span class="nombre1">Alura Latam</span>
+                <span class="nombre2">Oracle Next Education</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="seccion1">
+            <div class="imagen">
+                <img class="maquina-enigma" src="enigma.png" alt="imagen">
+            </div>
+            <div class="contenedor1">
+                <textarea id="input" spellcheck="false" placeholder="Ingrese el texto aquí" autofocus=""></textarea>
+            </div>
+            <div class="mensaje">
+                <span>!</span>
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button id="btn-encriptar" class="btn">Encriptar</button>
+                <button id="btn-desencriptar" class="btn">Desencriptar</button>
+            </div>
+        </div>
+        <div class="seccion2">
+            <div class="contenedor2">
+                <form action="#" id="formulario">
+                    <textarea id="output" spellcheck="false" placeholder="Esperando respuesta..." disabled=""></textarea>
+                </form>          
+                <button id="btn-copiar" class="btn">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-center">
+                <p>Desarrollado por <strong>Carlos Pacheco</strong></p>
+                <ul class="icons">
+                    <li class="icon">
+                        <a href="https://github.com/Carlos-p-l" target="_blank">
+                            <img src="https://img.icons8.com/sf-black-filled/30/1A1A1A/github.png"/>
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <img src="https://img.icons8.com/color/30/null/linkedin.png"/> 
+                        </a>
+                    </li>
+                </ul>                    
+            </div>
+        </div>
+    </footer>
+    <script src="codigo.js"></script>
+</body>
+</html>
